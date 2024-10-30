@@ -1,0 +1,169 @@
+html {
+    font-family: 'LT Cushion', sans-serif;
+    color: #252a47;
+}
+
+body {
+	margin: 0;
+	padding: 0;
+    padding-top: 20px;
+	font-family: Arial, sans-serif;
+	font-size: 14px;
+	background-color:#F5F8FD;
+    background-size: cover;
+    content: cover;
+}
+
+header{
+	text-align: center;
+}
+
+h1 {
+    font-size: 3rem;
+    line-height: 8px;
+    padding-top: 40px;
+	font-family: 'inter', sans-serif;
+	color: #04CA95;
+}
+
+h3 {
+    font-size: 1.6rem;
+    line-height: 8px;
+    padding-top: 20px;
+	font-family: 'inter', sans-serif;
+	color:#5B7BFF ;
+}
+
+h2 {
+    font-size: 1.6rem;
+    color: #04CA95;
+    line-height: 4px;
+	font-family: 'inter', sans-serif;
+	padding-top: 20px;
+	margin-left: 25px;
+    text-decoration: underline;
+
+}
+
+h2:hover {
+	color: #5B7BFF ;
+}
+
+iframe {
+    border-radius: 18px;
+    width: 1940px;
+    height: auto;
+}
+
+.mobile {
+    border: 1px solid #04CA95;
+    width: 70vw;
+    height: 600px;
+    transform: scale(.9);
+	background-color: white;
+}
+
+.desktop {
+    border: 1px solid #04CA95;
+    width: 25vw;
+    height: 600px;
+    transform: scale(.9);
+	background-color: white;
+}
+
+.pair {
+    display: flex;
+    flex-direction: row;
+    align-items: flex;
+    justify-content: space-between;
+}
+
+.flex {
+    margin-left: 5vw;
+    margin-right: 5vw;
+    transform: translate(1%);
+}
+
+.bottom {
+    padding-bottom: 50px;
+}
+
+p {
+    font-size: 1.2rem;
+    color: #252a47;
+	position: relative;
+	padding-top: 10px;
+	line-height: 1.4;
+	margin-left: 25px;
+	margin-right: 25px;
+}
+
+
+
+a {
+    text-decoration: none
+}
+
+footer {
+	position: relative;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	padding: 80px 30px 30px 30px;
+	text-align: center;
+	font-size: .8rem;
+}
+
+footer a {
+	color: #f1C40F;
+	text-decoration: underline;
+}
+
+footer a:hover {
+	color: #117a6b;
+}
+
+@media screen and (max-width: 1105px) {
+    .mobile {
+        border: 1px solid black;
+        width: 100vw;
+        height: 600px;
+        transform: scale(.9);
+        margin: 0;
+        padding: 0;
+    }
+
+    .desktop {
+        display: none;
+    }
+
+    .pair {
+        display: block;
+    }
+
+    .flex {
+        margin-left: 0vw;
+        margin-right: 0vw;
+        transform: translate(-1%);
+    }
+}
+
+@media screen and (max-width: 400px) {
+    html {
+        font-size: 80%;
+    }
+}
+
+
+@media screen and (max-width: 276px) {
+    html {
+        font-size: 70%;
+    }
+}
+
+@media screen and (max-width: 220px) {
+    body {
+        display: none;
+        background-color: rgb(255, 251, 237);
+    }
+}
